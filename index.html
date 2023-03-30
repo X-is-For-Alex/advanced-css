@@ -6,40 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
 
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&family=Roboto:wght@100;300&display=swap" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="./assets/css/style2.css">
 
 </head>
 <body>
   <header>
-    <p>Portfolio</p>
+    <h1>Portfolio</h1>
     <nav>
-      <a href="link1">Home</a>
-      <a href="link1">About</a>
-      <a href="link1">Contact</a>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
-    <section>
-      <p>About Me</p>
+    <section id="about">
+      <h2>About Me</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, odio illum! Perspiciatis eum dolore esse quaerat vel cum, officia maiores minus fuga. Exercitationem laudantium reiciendis impedit magni incidunt est id!</p>
     </section>
     
-    <section>
-      <p>Work</p>
+    <section id="work">
+      <h2>Work</h2>
       <div class="imgBox">
-        <img src="./assets/images/pexels-agung-pandit-wiguna-1696832.jpg" alt="guitar" class="imgLarge">
-        <img src="./assets/images/pexels-ash-376452.jpg" alt="guitar" class="imgMedium">
-        <img src="./assets/images/pexels-north-1407322.jpg" alt="guitar" class="imgMedium">
-        <img src="./assets/images/pexels-pixabay-33597.jpg" alt="guitar" class="imgMedium">
-        <img src="./assets/images/pexels-rebecca-swafford-625788.jpg" alt="guitar" class="imgMedium">
+        <div class="imgItem imgLarge"><h3 class="imgLabel">Project 1</h3></div>
+        <div class="imgItem"><h3 class="imgLabel">Project 2</h3></div>
+        <div class="imgItem"><h3 class="imgLabel">Project 3</h3></div>
+        <div class="imgItem"><h3 class="imgLabel">Project 4</h3></div>
+        <div class="imgItem"><h3 class="imgLabel">Project 5</h3></div>
       </div>
     </section>
     
-    <section>
-      <p>Contact</p>
-      <a href="">GitHub</a>
-      <a href="">LinkedIn</a>
+    <section id="contact">
+      <h2>Contact</h2>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
     </section>
   </main>
   <footer>
