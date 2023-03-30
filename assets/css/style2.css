@@ -40,11 +40,6 @@ main section {
   border: thin solid;
 }
 
-main section h2 {
-  margin: 1rem;
-  border: thin solid;
-}
-
 main section p {
   padding: 1rem;
   border: thin solid;
@@ -68,14 +63,4 @@ main section p {
 .imgLabel {
   font-size: 2rem;
   padding: 6rem 0 0 0.5rem;
-}
-
-main section a {
-  margin: 0 1rem 0;
-}
-
-#contact {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
