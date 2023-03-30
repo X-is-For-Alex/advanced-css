@@ -17,7 +17,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 7rem;
+  height: 10vh;
   border-bottom: thin solid;
   background-color: firebrick;
 }
@@ -27,12 +27,12 @@ header a {
 }
 
 main {
+  flex: 1;
   display: flex;
   flex-flow: column;
-  width: 50%;
+  width: 60%;
   margin: auto;
   border: thin solid red;
-  flex: 1;
 }
 
 main section {
@@ -40,27 +40,45 @@ main section {
   border: thin solid;
 }
 
-main section p {
-  padding: 1rem;
+#about, #contact {
+  min-height: 10rem;
+  flex: 0 0 10%;
+}
+
+#work {
+  flex: 1 0 80%;
+}
+
+.col {
   border: thin solid;
 }
 
-.imgBox {
-	display: flex;
+.narrow {
+  flex: 0 0 30%;
+}
+
+.wide {
+  flex: 1 0 70%;
+}
+
+#work .wide {
+  display: flex;
   flex-wrap: wrap;
 }
 
 .imgItem {
-  background-color: silver;
-  flex: 0 0 50%;
+  width: 350px;
+  height: 350px;
   border: thin solid;
+  flex: 0 0 50%;
 }
 
 .imgLarge {
   flex: 0 0 100%;
 }
 
-.imgLabel {
-  font-size: 2rem;
-  padding: 6rem 0 0 0.5rem;
+footer h6 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 300;
 }
