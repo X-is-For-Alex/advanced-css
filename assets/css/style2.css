@@ -7,7 +7,6 @@
 
 body {
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
   margin: 0;
 }
@@ -31,9 +30,8 @@ main {
   flex: 1;
   display: flex;
   flex-flow: column;
-  width: 60%;
-  /* position: relative; */
-  margin: 5rem auto 1rem;
+  width: 50%;
+  margin: 5.5rem auto 1rem;
 }
 
 main section {
@@ -46,16 +44,12 @@ main section {
   flex: 0 0 10%;
 }
 
-#work {
-  flex: 1 0 80%;
-}
-
-.col {background-color: silver;
-}
-
 .narrow {
   flex: 0 0 20%;
-  border-right: 0.2rem solid black;
+  border-right: 0.2rem solid gray;
+  text-align: end;
+  padding: 1rem;
+  margin-right: 1rem;
 }
 
 .wide {
@@ -65,18 +59,20 @@ main section {
 #work .wide {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: stretch;
 }
 
 .imgItem {
-  min-height: 20vh;
-  align-self: stretch;
+  min-width: 400px;
+  min-height: 300px;
   flex: 0 0 50%;
-  padding: 1rem 0;
+  text-align: center;
+  margin: 0.5rem 0 0;
 }
 
 .imgLarge {
-  flex: 0 0 100%;
+  flex: 1 0 100%;
+  margin-top: 0;
 }
 
 footer h6 {
