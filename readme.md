@@ -13,7 +13,7 @@ Build a responsive webpage that includes the following:
 
 [deployed webpage](https://x-is-for-alex.github.io/advanced-css/)
 
-[project repo](https://x-is-for-alex.github.io/semantic-html-homework/)
+[project repo](https://github.com/X-is-For-Alex/advanced-css)
 
 ---
 
