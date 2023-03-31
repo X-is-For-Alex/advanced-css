@@ -27,21 +27,27 @@ header {
 header a {
   font-size: 2rem;
   padding: 0.5rem;
-  transition: color 1s, outline 2s;
-  outline-color:  var(--red);
+  transition: color 0.3s, outline 0.7s;
+  outline-color: var(--red);
+}
+
+a {
+  text-decoration: none;
 }
 
 nav a:link {
   color: white;
-  outline: thin solid;
 }
+
 nav a:visited {
   color: white;
 }
+
 nav a:hover {
   color: silver;
   outline: thin solid;
 }
+
 nav a:active {
   color: white;
 }
@@ -81,7 +87,8 @@ main section {
   margin: 1rem;
 }
 
-#about, #contact {
+#about,
+#contact {
   min-height: 10rem;
 }
 
@@ -117,20 +124,23 @@ main section {
   margin: 1rem;
 }
 
-
 .imgItem a:link {
   color: white;
 }
-imgItem a:visited {
+
+.imgItem a:visited {
   color: white;
 }
-imgItem a:hover {
+
+.imgItem a:hover {
   color: white;
 }
-imgItem a:active {
+
+.imgItem a:active {
   color: white;
 }
-imgItem a:focus {
+
+.imgItem a:focus {
   color: white;
 }
 
@@ -188,16 +198,19 @@ h4 {
   color: black;
   outline: thin white;
 }
+
 #contact a:visited {
   color: black;
   outline: thin white;
 }
+
 #contact a:hover {
-  color:  var(--red);
+  color: var(--red);
   outline: thin solid;
 }
+
 #contact a:active {
-  color:  var(--red);
+  color: var(--red);
 }
 
 footer h6 {
@@ -219,31 +232,48 @@ footer h6 {
     min-height: 30rems;
     text-align: center;
   }
+
   main {
     margin: 1rem;
     flex-direction: column;
   }
+
   main section {
     flex-direction: column;
   }
-  .imgItem, img {
+
+  .imgItem,
+  img {
     max-width: 400px;
     min-height: 300px;
   }
+
   .col.narrow {
     text-align: center;
     border-right: unset;
     border-bottom: 0.2rem solid var(--red);
   }
+
   #work .wide {
     margin-top: 1rem;
     gap: 1rem;
   }
+
   .imgLarge {
-    all:unset;
+    all: unset;
   }
+
   .imgItem {
-    all:unset;
+    all: unset;
+  }
+
+  h1 {
+    margin: 1rem;
+    padding: 0;
+  }
+
+  .col.narrow {
+    margin: 0;
   }
 }
 
@@ -252,15 +282,18 @@ footer h6 {
     transition: clip-path 0.3s;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
+
   nav {
     transition: flex-direction 0.5s;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
+
   main section {
     flex-direction: column;
   }
+
   #work .wide {
     flex-direction: column;
     align-items: center;
