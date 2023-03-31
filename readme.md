@@ -11,9 +11,9 @@ Build a responsive webpage that includes the following:
 
 ---
 
-[deployed webpage](https://x-is-for-alex.github.io/advanced-css/)
+[deployed webpage](https://x-is-for-alex.github.io/module-02-advanced-css/)
 
-[project repo](https://github.com/X-is-For-Alex/advanced-css)
+[project repo](https://github.com/X-is-For-Alex/module-02-advanced-css)
 
 ---
 
